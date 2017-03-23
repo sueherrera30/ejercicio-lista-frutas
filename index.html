@@ -7,10 +7,12 @@
      h1{
        color:	#FA8072;
        font-family: "calibri";
+     font-size: 30px;
        }
     body{
       color:#228B22;
       font-family: "calibri";
+      font-size: 20px;
     }
      </style>
   </head>
@@ -20,21 +22,24 @@
     se dedica a la compra, venta y distribuición de frutas al por mayor.
     En la actualidad, somos la empresa lider en el servicio de distribuición de frutas.</p>
    <body background ="10.jpg">
-   <p align = center ><img src="https://s-media-cache-ak0.pinimg.com/736x/cd/7c/87/cd7c875cd33fbc629bdb3bb7ed73af2b.jpg"></p>
+   <p align = "center" ><img src="https://s-media-cache-ak0.pinimg.com/736x/cd/7c/87/cd7c875cd33fbc629bdb3bb7ed73af2b.jpg"></p>
 
+   <div align = "left">
    <strong>
    <p align = "left">Catálogo:</p>
 
-     <ol id="miLista" align ="left">
+     <ol id="miLista" >
       <li>Manzana</li>
       <li>Pera</li>
       <li>Piña</li>
       <li>Cereza</li>
       <li>Naranja</li>
       </ol>
-      <input type ="text" id="frutitas" value ="Ingresa una fruta">
-      <button  type="button" onclick="agregarFruta();">agregar</button>
+      <input type ="text" id="frutitas" value ="Ingresa una frutita">
+      <button  type="button" onclick="agregarFruta();">agregarme ❤ </button>
+      <button onclick="removeLi();"> eliminame y Adiós :( </button>
       </strong>
+    </div>
       <script src="./js/frutitas.js"></script>
  </body>
 </html>

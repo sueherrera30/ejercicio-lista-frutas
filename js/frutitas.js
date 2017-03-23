@@ -5,3 +5,9 @@ function agregarFruta(){
   node.appendChild(textnode);
   document.getElementById('miLista').appendChild(node);
 }
+function removeLi() {
+  var lista = document.getElementById("miLista");
+  var elemento= document.getElementsByTagName("li");
+  var i = elemento.length -1;
+  lista.removeChild(elemento[i]);
+  }
